@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fixed Map for Notion</title>
+  <style>
+    body { margin: 0; }
+    .map-container {
+      width: 100%;
+      height: 500px; /* 固定高度 */
+      overflow: hidden;
+    }
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      pointer-events: auto; /* 允许点击标记 */
+    }
+  </style>
+</head>
+<body>
+  <div class="map-container">
+    <iframe
+      src="https://www.google.com/maps/d/embed?mid=1EAhhPgd09NXZ_oz-BxLcQpnpTaCU-ts&ehbc=2E312F">
+    </iframe>
+  </div>
+</body>
+</html>
